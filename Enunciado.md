@@ -12,7 +12,7 @@ Por último, es **obligatorio** implementar ***pruebas_alumno.c*** con pruebas d
 
 ## Estructura del archivo
 
-El archivo a leer tiene un formato como se muestra a continuación: <nombre>,<velocidad>,<peso>,<rareza>
+El archivo a leer tiene un formato como se muestra a continuación:
 
 ```csv
 Magikarp,10,5.2,C
@@ -38,7 +38,7 @@ Al cargar un archivo, si se encuentran pokemones repetidos, se deben conservar s
 
 En lo que respecta a este trabajo, los nombres de los pokemon no distinguen diferencias entre mayúsculas y minúsculas (pikachu, Pikachu o PIKACHU son el mismo pokemon).
 
-## Ejemplos de uso
+## Ejemplos de uso del main a implementar
 
   - **./tp1 pokedex.csv buscar-nombre magikarp**: Busca un pokemon con el nombre magikarp y muestra sus datos por pantalla.
   - **./tp1 pokedex.csv mostrar-uno**: Busca un pokemon al azar y lo muestra por pantalla con sus datos
